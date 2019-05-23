@@ -93,3 +93,4 @@ X.to_csv("X.csv",index=False)
 
 #Create the excel first. Cleaned csv dataa
 finalcsv = pd.concat([X,Y], axis=1)
+finalcsv.to_csv("final.csv",index=False)
